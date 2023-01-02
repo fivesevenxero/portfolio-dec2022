@@ -1,0 +1,48 @@
+.menu {
+    background-color: purple;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    margin-top: 0%;
+    /* to give priority to specific class */
+    z-index: 10;
+
+
+}
+
+.links {
+    display: inline;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(231, 215, 121);
+}
+
+/* pseudo class- to emphasis style when hovering */
+a:hover {
+    font-size: 30px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#profile {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+body {
+    text-align: center;
+}
+
+#home {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(143, 143, 40), rgb(231, 73, 33));
+}
